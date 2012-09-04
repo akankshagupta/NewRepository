@@ -34,7 +34,8 @@
     </actionOverrides>
     <deploymentStatus>Deployed</deploymentStatus>
     <enableActivities>false</enableActivities>
-    <enableFeeds>false</enableFeeds>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>true</enableFeeds>
     <enableHistory>false</enableHistory>
     <enableReports>true</enableReports>
     <fields>
@@ -42,6 +43,7 @@
         <externalId>false</externalId>
         <label>Improvements Needed</label>
         <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
         <type>LongTextArea</type>
         <visibleLines>10</visibleLines>
     </fields>
@@ -50,6 +52,7 @@
         <externalId>false</externalId>
         <label>Overall Comments</label>
         <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
         <type>LongTextArea</type>
         <visibleLines>10</visibleLines>
     </fields>
@@ -59,6 +62,7 @@
         <label>Session_ID</label>
         <length>30</length>
         <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
         <type>Text</type>
         <unique>false</unique>
     </fields>
@@ -71,6 +75,7 @@
         <relationshipName>Feedback</relationshipName>
         <relationshipOrder>0</relationshipOrder>
         <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackFeedHistory>false</trackFeedHistory>
         <type>MasterDetail</type>
         <writeRequiresMasterRead>false</writeRequiresMasterRead>
     </fields>
@@ -79,6 +84,7 @@
         <externalId>false</externalId>
         <label>What did you like</label>
         <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
         <type>LongTextArea</type>
         <visibleLines>10</visibleLines>
     </fields>
@@ -95,6 +101,7 @@
     </listViews>
     <nameField>
         <label>Feedback Name</label>
+        <trackFeedHistory>false</trackFeedHistory>
         <type>Text</type>
     </nameField>
     <pluralLabel>Feedback</pluralLabel>
